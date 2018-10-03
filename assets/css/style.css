@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+
+#Lexiphoto {
+    width: 20%;
+    height: 20%;
+    float: left;
+}
+
+.background {
+    background-image: url(../images/elegant_grid.png);
+    clear: both;
+}
+
+#maincontent {
+    background-color: white;
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 100px;
+    overflow: auto;
+    
+}
+
+h1 {
+    
+    position: relative;
+    bottom: 0;
+}
+
+p {
+    padding: 10px;
+    margin: 15px;
+    
+}
+
+.header {
+    background-color: yellow;
+    width: 100%;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+
+    
+}
+footer {
+    background-color: black;
+    width: 100%;
+    border-top: blue;
+    height: 30px;
+    position: fixed;
+    bottom: 0;
+}
+
+.navigation {
+    text-align: right;
+    
+}
+
+.headerbar {
+    width: 960px;
+    margin: 0 auto;
+}
